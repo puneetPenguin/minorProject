@@ -25,8 +25,8 @@ export async function POST(request) {
     });
     try {
         await transporter.sendMail({
-            from: data.email,
-            to: "jobsujjawal100@gmail.com",
+            from: "punnetb.work@gmail.com",
+            to: data.email,
             subject: `Leave Pass`,
             text: "Asdfas",
             html: `<!DOCTYPE html>
